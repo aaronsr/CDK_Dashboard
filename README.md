@@ -1,8 +1,6 @@
-# Welcome to your CDK JavaScript project!
+# Deploy EC2 Cloudwatch dashboards using CDK
 
-This is a blank project for JavaScript development with CDK.
-
-The `cdk.json` file tells the CDK Toolkit how to execute your app. The build step is not required when using JavaScript.
+This project will build a basic Cloudwatch dashboard, using CDK, for each EC2 instance in bin\cdk_dashboard.js. 
 
 ## Useful commands
 
