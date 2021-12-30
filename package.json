@@ -1,0 +1,21 @@
+{
+  "name": "cdk_dashboard",
+  "version": "0.1.0",
+  "bin": {
+    "cdk_dashboard": "bin/cdk_dashboard.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.1.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.1.0",
+    "aws-sdk": "^2.1048.0",
+    "constructs": "^10.0.0"
+  }
+}
